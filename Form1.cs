@@ -107,7 +107,7 @@ namespace Egitim2
             ekranTemizleme = true;
             islem = '+';
             sayi1 = Convert.ToInt32(ekran.Text);
-            if (ekranTemizleme == true) ekran.Text = "";
+            if (ekranTemizleme) ekran.Text = "";
 
 
         }
@@ -117,7 +117,7 @@ namespace Egitim2
             ekranTemizleme = true;
             islem = '-';
             sayi1 = Convert.ToInt32(ekran.Text);
-            if (ekranTemizleme == true) ekran.Text = "";
+            if (ekranTemizleme) ekran.Text = "";
 
         }
 
@@ -126,7 +126,7 @@ namespace Egitim2
             ekranTemizleme = true;
             islem = '*';
             sayi1 = Convert.ToInt32(ekran.Text);
-            if (ekranTemizleme == true) ekran.Text = "";
+            if (ekranTemizleme) ekran.Text = "";
 
         }
 
@@ -135,7 +135,7 @@ namespace Egitim2
             ekranTemizleme = true;
             islem = '/';
             sayi1 = Convert.ToInt32(ekran.Text);
-            if (ekranTemizleme == true) ekran.Text = "";
+            if (ekranTemizleme) ekran.Text = "";
         }
 
         private void buttonEsittir_Click(object sender, EventArgs e)
